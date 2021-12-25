@@ -10,12 +10,15 @@ namespace SwitchExamples.Examples
             Console.Write($"input - {input} Output - ");
             switch (input)
             {
+                // this checks if localInput is of type int
                 case int localInput:
                     Console.WriteLine("integer input");
                     break;
+                // this checks if localInput is of type double
                 case double localInput:
                     Console.WriteLine("double input");
                     break;
+                // Notice the use of type with case
                 case Person localInput:
                     Console.WriteLine("Person input");
                     break;
